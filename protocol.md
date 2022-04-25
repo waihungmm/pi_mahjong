@@ -6,8 +6,8 @@ I use Posix Message queue (one from table to player and another from player to t
 
 The following are the list of messages
 
-| Message    | msg_code | Direction | 
-| -----------| ---------| --------------| 
+| Message    | Code | Direction | 
+| :--------- | :------- | :------------| 
 | Register   | R        | Player->Table | 
 | New Game   | N        | Table->Player | 
 | New Hand   | H        | Table->Player | 
@@ -18,7 +18,7 @@ The following are the list of messages
 | Pung       | T        | Player<->Table | 
 | Win        | W        | Player<->Table | 
 | Next Drawer | X       | Table->Player | 
-| End Hand   | E        | Table->Player | 
+| End Hand   | E        | Table<->Player | 
 | End Game   | G        | Table->Player | 
 | Reveal Tile | V       | Table->Player | 
 
