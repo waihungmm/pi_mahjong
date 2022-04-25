@@ -1,0 +1,3 @@
+Like all computer program, besides **the** algorithm, the _data structure_ and _protocol_ are important to make the problem work.  So when I decide the mahjong game, I have spent some time to device what is the best protocol.
+Mahjong is a four-player gamer.  So there are five (5) entities, 4 players as well as the table (most people called the wall).  Player can communicate to table and vice versa.  But in my design, if player needs to communicate one another, it should be via the table entity.
+I use Posix Message queue (one from table to player and another from player to table) for the communication channels.
