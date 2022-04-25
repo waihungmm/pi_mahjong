@@ -88,8 +88,6 @@ struct pung_format {
 
 struct next_drawer_format {
   char code;
-//  char from;
-//  char to;
   char seat;
   };
   
@@ -107,12 +105,4 @@ struct end_game_format {
   char total_round[4];
   };
 ```
-  
-
-  
-  
-  
-  
-  
-
-  
+ 
