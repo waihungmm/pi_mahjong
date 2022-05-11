@@ -1,3 +1,3 @@
 # pi_mahjong
 
-I learn the mahjong game months ago.  I think in order to reinforce my skills, I better to document what I learn into computer algorithm.  I use my Raspberry Pi and C language to start this project. 
+I learned the mahjong game months ago.  Like other knowledge, the best way to reinforce the understanding to teach others.  So I taught my Raspberry Pi computer to play this game.  I used the C language to realize the algorithm. 
